@@ -1,0 +1,631 @@
+{
+ "data": [
+  {
+   "id": 337823,
+   "title": "제휴마케팅본부 B2B 마케터(대리급)",
+   "application_type": "apply",
+   "job_posting_type": "general",
+   "status": "published",
+   "job_description": "1. B2B 사업·서비스 제휴처 발굴 및 파트너십 구축\n이커머스 솔루션사(OMS/CRM/3PL 등), 협회, 플랫폼 대상 제휴처 발굴 및 제안\n파트너십 제안서 작성, 제휴 미팅 진행 및 계약(MOU 등) 구조 도출\n제휴 파트너 경유 ICP 리드(SQL) 창출 및 파트너 공동 프로모션/세미나 기획·운영\n\n2. Generative AI 도구 활용 B2B 콘텐츠 기획·제작\n성공사례/인터뷰 기반 히어로 콘텐츠 원본 및 PR(보도자료) 직접 작성\nGenerative AI 툴(ChatGPT, Claude 등)을 활용한 콘텐츠 기획 및 온드 미디어(블로그, 뉴스레터 등) 콘텐츠 제작\n회사 PR 콘텐츠 기획/발행 및 파트너 공동 아웃바운드 메시징 가이딩",
+   "job_rank_category": "사원/대리",
+   "job_role": "대리",
+   "min_salary": null,
+   "max_salary": null,
+   "total_compensation": null,
+   "qualifications": "B2B 제휴, 사업개발(BD), 파트너십 마케팅 관련 실무 경험이 3~5년\nGenerative AI 툴(ChatGPT, Claude 등)을 활용해 카피라이팅 및 콘텐츠 제작 생산성을 극대화해보신 분\nB2B 보도자료(PR), 칼럼, 제안서 등 전문 아티클을 직접 기획하고 배포해보신 분\n이커머스 생태계에 대한 이해를 바탕으로 외부 파트너사 및 내부 유관부서와 매끄럽게 소통·협업하실 수 있는 분",
+   "introduction": "CS쉐어링은 중소기업 및 커머스 대상 CS서비스 분야에서\n독보적인 공유경제 기반 비즈니스 모델로 빠르게 성장해왔으며,\n현재 전략적 투자 유치와 Pre-IPO를 위한 밸류업(Value-up) 단계에 진입하였습니다.\n\n당사의 CS 아웃소싱 솔루션 및 AI BPO 서비스를 심층적으로 스터디하고,\n이커머스/B2B 솔루션 파트너사를 발굴해 공동 파이프라인을 창출할 제휴 전문가를 모십니다.\n파트너십 제안서 기획부터 B2B 카피라이팅, 온드채널 콘텐츠 제작까지 능동적으로 수행할 인재를 찾습니다.",
+   "min_experience": 3,
+   "max_experience": null,
+   "education_requirement": "bachelor",
+   "recruiting_process": "서류전형 ＞ 인적성검사 ＞ 1차면접 ＞ 2차면접 ＞ 최종합격\n\n*1차 면접 : 회사 양식 이력서 작성 및 인성·기초역량 검사가 함께 진행됩니다.\n*2차 면접 : 사전 과제가 주어질 수 있으며, 별도의 과제가 추가될 수 있습니다.",
+   "additional_information": "근무형태 : 계약직 3개월 근무 후 정규직 진행 (급여 100% 지급)\n업무평가 후 계약완료 및 정규직 전환 검토\n정규직 전환 시 최초 입사일로 계속근로일수 산정\n근무일시 : 주 5일 (월-금) 오전 9시 - 오후 6시\n연 봉 : 면접 후 협의\n근무장소 : 본사(마곡센터) 서울시 강서구 마곡중앙1로 10 , 한일노벨리아 5층 CS쉐어링\n(5호선 마곡역 6번출구 인근)",
+   "preferred_qualifications": "이커머스 생태계(사방넷, 호스팅사, CRM, 3PL 등)에 대한 이해도가 높거나 B2B 연계 제휴 경험이 있으신 분\nB2B SaaS, IT 아웃소싱, 광고대행사 출신으로 B2B 파트너십 및 공동 마케팅·리드 유입 캠페인을 집행해보신 분\nPR(보도자료) 기획·작성 및 언론 미디어 배포(아웃리치) 경험이 풍부하신 분\n디자인 및 영상 편집 툴(Figma, Photoshop 등)을 기본적으로 다룰 줄 아시는 분",
+   "link": "",
+   "starts_at": "2026-11-03T00:00:00.000+09:00",
+   "ends_at": null,
+   "explicit_due": false,
+   "highend": false,
+   "leader_position": false,
+   "company_description": "",
+   "matching_reward": 500000,
+   "image_url": "https://career-cdn.rememberapp.co.kr/upload/attachments/image/2i7dmdntotvf0boq85dnigcgutoq",
+   "organization": {
+    "id": 49877,
+    "name": "씨에스쉐어링(주)",
+    "company_id": 1583833,
+    "account_type": "team",
+    "headhunter": false,
+    "logo": "https://career-cdn.rememberapp.co.kr/upload/attachments/logo/e1nuh5zkd4rqp216lg3baaed1kan",
+    "url": "http://cssharing.com/",
+    "application_response_metrics": {
+     "response_rate": 84,
+     "response_duration_days": 15
+    }
+   },
+   "job_category_ids": [
+    157,
+    223,
+    235,
+    230,
+    226
+   ],
+   "job_categories": [
+    {
+     "id": 157,
+     "level1": "경영·전략·기획",
+     "level2": "사업개발(BD)"
+    },
+    {
+     "id": 223,
+     "level1": "마케팅·광고",
+     "level2": "마케팅 전략·기획"
+    },
+    {
+     "id": 226,
+     "level1": "마케팅·광고",
+     "level2": "CRM 마케팅"
+    },
+    {
+     "id": 230,
+     "level1": "마케팅·광고",
+     "level2": "카피라이터(CW)"
+    },
+    {
+     "id": 235,
+     "level1": "홍보·대외협력",
+     "level2": "홍보·PR"
+    }
+   ],
+   "industries": [],
+   "addresses": [
+    {
+     "address_level1": "서울특별시",
+     "address_level2": "강서구"
+    }
+   ],
+   "application_requirements": {
+    "language": false,
+    "eligibility_for_veterans_compensation": false,
+    "impairment_type": false,
+    "military_service_status": false,
+    "current_salary": true,
+    "certificate": false,
+    "portfolio": true,
+    "birth_year": true,
+    "gender": true
+   },
+   "normalized_address": {
+    "level1": "서울",
+    "level2": "강서구"
+   },
+   "job_rank": null,
+   "matching_reward_request": null,
+   "starred_job_posting": null,
+   "application": null,
+   "matching_gift": {
+    "type": "cash",
+    "amount": 500000
+   },
+   "viewed_at": null,
+   "chips": [
+    {
+     "category": "certification",
+     "value": "벤처 인증"
+    }
+   ],
+   "company": null,
+   "lead_times": [
+    {
+     "id": 111707,
+     "from": "applied",
+     "to": "resume_accepted",
+     "lead_time_type": "default",
+     "period": null,
+     "ends_at": null
+    }
+   ],
+   "applicant_manager": null,
+   "ad_types": [],
+   "spotlight": false
+  },
+  {
+   "id": 267821,
+   "title": "[이노션에스] 국내 솔루션 본부 소셜 AE /시니어 매니저",
+   "application_type": "apply",
+   "job_posting_type": "general",
+   "status": "published",
+   "job_description": "• 소셜 미디어(인스타, 페이스북, 유튜브, 틱톡 등) 채널 콘텐츠 기획 및 운영 \n• 디지털 캠페인 플래닝, 전략 수립 및 실\n• 광고주(클라이언트) 커뮤니케이션 및 외주처 관리",
+   "job_rank_category": "과장",
+   "job_role": "",
+   "min_salary": null,
+   "max_salary": null,
+   "total_compensation": null,
+   "qualifications": "• 광고대행사 또는 동종업 AE 경력 7년 이상이신 분\n• 디지털광고 캠페인 집행 및 운영 경험이 있으신 분\n• 디지털 광고 시장에 대한 이해도와 관심이 높으신 분",
+   "introduction": "이노션에스는 현대자동차 그룹 계열 이노션의 자회사로, \n소셜(SNS) 마케팅 전문으로 출범하여 전략적인 관점에서\n통합 브랜딩 방향성을 적극 제안하는 마케팅 솔루션 컴퍼니 입니다.\n\nWe are Innovative Solutionists!\n\n수많은 접점을 접하는 우리의 타겟에게\n브랜드가 당면한 미션이나 문제는\n하나로 규정할 수 없습니다.\n\nINNOCEAN-S는 브랜드가 당면한\nN개의 브랜드 미션과 문제를\nA부터 Z까지 혁신적으로 해결하는\nSolutionist 입니다.",
+   "min_experience": 7,
+   "max_experience": 10,
+   "education_requirement": "bachelor",
+   "recruiting_process": "[채용 프로세스]\n서류전형 → 1차 면접 → 2차 면접 → 처우협의 → 최종합격\n\n[제출 서류]\nㆍ이력서, 포트폴리오 : 자유양식\n\n* 포트폴리오 필수 제출 부탁드립니다.",
+   "additional_information": "ㆍ시차출퇴근제 운영 (9시~10시 30분)\nㆍ차량 구입 임직원 할인 적용 (현대/기아차)\nㆍ명절 복지 포인트 제공\nㆍ현대백화점 카드 할인 적용\nㆍ건강검진 지원 (1년 이상 재직 시) / 독감예방 지원\nㆍ장기근속 휴가 / 창립일 전사 휴무\nㆍ생일선물 지원\nㆍSizzle 운영 (스낵, 커피, 음료 라운지 이용)\nㆍ경조사 지원",
+   "preferred_qualifications": "• 소셜미디어 마케팅에 대한 이해도와 관심이 높으신 분\n• 명확하고 원활한 커뮤니케이션이 가능하신 분\n• 외국어(영어, 일본어) 활용이 가능하신 분",
+   "link": "",
+   "starts_at": "2026-11-03T00:00:00.000+09:00",
+   "ends_at": "2026-11-30T23:59:59.000+09:00",
+   "explicit_due": true,
+   "highend": false,
+   "leader_position": false,
+   "company_description": "",
+   "matching_reward": 500000,
+   "image_url": "https://career-cdn.rememberapp.co.kr/upload/attachments/image/d3p6c0owoz7k00qk8lptw0hmonog",
+   "organization": {
+    "id": 63689,
+    "name": "(주)이노션에스",
+    "company_id": 4284487,
+    "account_type": "team",
+    "headhunter": false,
+    "logo": "https://career-cdn.rememberapp.co.kr/upload/attachments/logo/3gv7s118ek5k7hr40z31ti5g1zrd",
+    "url": null,
+    "application_response_metrics": {
+     "response_rate": 96,
+     "response_duration_days": 2
+    }
+   },
+   "job_category_ids": [
+    229,
+    233,
+    223
+   ],
+   "job_categories": [
+    {
+     "id": 223,
+     "level1": "마케팅·광고",
+     "level2": "마케팅 전략·기획"
+    },
+    {
+     "id": 229,
+     "level1": "마케팅·광고",
+     "level2": "광고기획(AE)"
+    },
+    {
+     "id": 233,
+     "level1": "마케팅·광고",
+     "level2": "광고 관리·운영"
+    }
+   ],
+   "industries": [],
+   "addresses": [
+    {
+     "address_level1": "서울특별시",
+     "address_level2": "강남구"
+    }
+   ],
+   "application_requirements": {
+    "language": false,
+    "eligibility_for_veterans_compensation": false,
+    "impairment_type": false,
+    "military_service_status": false,
+    "current_salary": true,
+    "certificate": false,
+    "portfolio": true,
+    "birth_year": true,
+    "gender": true
+   },
+   "normalized_address": {
+    "level1": "서울",
+    "level2": "강남구"
+   },
+   "job_rank": null,
+   "matching_reward_request": null,
+   "starred_job_posting": null,
+   "application": null,
+   "matching_gift": {
+    "type": "cash",
+    "amount": 500000
+   },
+   "viewed_at": null,
+   "chips": [],
+   "company": null,
+   "lead_times": [
+    {
+     "id": 81741,
+     "from": "applied",
+     "to": "resume_accepted",
+     "lead_time_type": "default",
+     "period": null,
+     "ends_at": null
+    }
+   ],
+   "applicant_manager": null,
+   "ad_types": [],
+   "spotlight": false
+  },
+  {
+   "id": 292571,
+   "title": "[이노션에스] 국내 솔루션 본부 소셜 AE 매니저 / 계약직",
+   "application_type": "apply",
+   "job_posting_type": "general",
+   "status": "published",
+   "job_description": "• 소셜 미디어(인스타, 페이스북, 유튜브, 틱톡 등) 채널 콘텐츠 기획 및 운영 \n• 디지털 캠페인 플래닝, 전략 수립 및 실\n• 광고주(클라이언트) 커뮤니케이션 및 외주처 관리",
+   "job_rank_category": "사원/대리",
+   "job_role": "",
+   "min_salary": null,
+   "max_salary": null,
+   "total_compensation": null,
+   "qualifications": "• 광고대행사 또는 동종업 AE 경력 4년 이상이신 분\n• 디지털광고 캠페인 집행 및 운영 경험이 있으신 분",
+   "introduction": "이노션에스는 현대자동차 그룹 계열 이노션의 자회사로, \n소셜(SNS) 마케팅 전문으로 출범하여 전략적인 관점에서\n통합 브랜딩 방향성을 적극 제안하는 마케팅 솔루션 컴퍼니 입니다.\n\nWe are Innovative Solutionists!\n\n수많은 접점을 접하는 우리의 타겟에게\n브랜드가 당면한 미션이나 문제는\n하나로 규정할 수 없습니다.\n\nINNOCEAN-S는 브랜드가 당면한\nN개의 브랜드 미션과 문제를\nA부터 Z까지 혁신적으로 해결하는\nSolutionist 입니다.",
+   "min_experience": 2,
+   "max_experience": 6,
+   "education_requirement": "bachelor",
+   "recruiting_process": "[채용 프로세스]\n서류전형 → 1차 면접 → 2차 면접 → 처우협의 → 최종합격\n\n[제출 서류]\nㆍ이력서, 포트폴리오 : 자유양식\n\n* 포트폴리오 필수 제출 부탁드립니다.\n* 입사일로부터 1년 계약직 채용 포지션 입니다. (계약연장 or 정규직 전환 검토 가능)",
+   "additional_information": "ㆍ시차출퇴근제 운영 (9시~10시 30분)\nㆍ차량 구입 임직원 할인 적용 (현대/기아차)\nㆍ명절 복지 포인트 제공\nㆍ현대백화점 카드 할인 적용\nㆍ건강검진 지원 (1년 이상 재직 시) / 독감예방 지원\nㆍ장기근속 휴가 / 창립일 전사 휴무\nㆍ생일선물 지원\nㆍSizzle 운영 (스낵, 커피, 음료 라운지 이용)\nㆍ경조사 지원",
+   "preferred_qualifications": "• 소셜미디어 마케팅에 대한 이해도와 관심이 높으신 분\n• 명확하고 원활한 커뮤니케이션이 가능하신 분\n• 영어 활용이 가능하신 분",
+   "link": "",
+   "starts_at": "2026-11-03T00:00:00.000+09:00",
+   "ends_at": "2026-11-30T23:59:59.000+09:00",
+   "explicit_due": true,
+   "highend": false,
+   "leader_position": false,
+   "company_description": "",
+   "matching_reward": 500000,
+   "image_url": "https://career-cdn.rememberapp.co.kr/upload/attachments/image/d3p6c0owoz7k00qk8lptw0hmonog",
+   "organization": {
+    "id": 63689,
+    "name": "(주)이노션에스",
+    "company_id": 4284487,
+    "account_type": "team",
+    "headhunter": false,
+    "logo": "https://career-cdn.rememberapp.co.kr/upload/attachments/logo/3gv7s118ek5k7hr40z31ti5g1zrd",
+    "url": null,
+    "application_response_metrics": {
+     "response_rate": 96,
+     "response_duration_days": 2
+    }
+   },
+   "job_category_ids": [
+    229,
+    233,
+    223
+   ],
+   "job_categories": [
+    {
+     "id": 223,
+     "level1": "마케팅·광고",
+     "level2": "마케팅 전략·기획"
+    },
+    {
+     "id": 229,
+     "level1": "마케팅·광고",
+     "level2": "광고기획(AE)"
+    },
+    {
+     "id": 233,
+     "level1": "마케팅·광고",
+     "level2": "광고 관리·운영"
+    }
+   ],
+   "industries": [],
+   "addresses": [
+    {
+     "address_level1": "서울특별시",
+     "address_level2": "강남구"
+    }
+   ],
+   "application_requirements": {
+    "language": false,
+    "eligibility_for_veterans_compensation": false,
+    "impairment_type": false,
+    "military_service_status": false,
+    "current_salary": true,
+    "certificate": false,
+    "portfolio": true,
+    "birth_year": true,
+    "gender": true
+   },
+   "normalized_address": {
+    "level1": "서울",
+    "level2": "강남구"
+   },
+   "job_rank": null,
+   "matching_reward_request": null,
+   "starred_job_posting": null,
+   "application": null,
+   "matching_gift": {
+    "type": "cash",
+    "amount": 500000
+   },
+   "viewed_at": null,
+   "chips": [],
+   "company": null,
+   "lead_times": [
+    {
+     "id": null,
+     "from": "applied",
+     "to": "resume_accepted",
+     "lead_time_type": "default",
+     "period": null,
+     "ends_at": null
+    }
+   ],
+   "applicant_manager": null,
+   "ad_types": [],
+   "spotlight": false
+  },
+  {
+   "id": 348435,
+   "title": "[리멤버 자회사] 이안손앤컴퍼니 마케팅 담당자",
+   "application_type": "apply",
+   "job_posting_type": "general",
+   "status": "published",
+   "job_description": "✋ 담당하시게 될 업무\n• 업종별 고객·시장 조사를 바탕으로 자사 마케팅 방안 기획 및 실행\n• 온드미디어(LinkedIn, 네이버, Instagram 등) 정기 콘텐츠 발행\n• 리드 확보를 위한 콘텐츠·캠페인 운영 및 퍼포먼스 분석\n• 고객 사례(케이스 스터디), 서비스 소개서 등 영업 지원 자료 제작\n• 영문 마케팅 자료 제작 및 해외 고객 대상 콘텐츠 운영\n• 고객 대상 설문, 프로모션, 온·오프라인 행사 기획 및 운영 지원",
+   "job_rank_category": "",
+   "job_role": "",
+   "min_salary": null,
+   "max_salary": null,
+   "total_compensation": null,
+   "qualifications": "🤗 함께하고 싶은 분\n• 해외여행 결격 사유가 없는 자\n• 학사 학위 또는 그에 준하는 경험\n• 마케팅·콘텐츠 관련 실무 경험 1년 이상\n  - 관련 인턴십 및 유사 경험/역량 보유 1년 미만 지원 가능\n• 비즈니스 영어 Writing·Speaking 필수",
+   "introduction": "[우리 회사를 소개할게요!]\nㆍ이안손앤컴퍼니 (Liahnson&Company) 는 국내에서 가장 빠르게 성장하고 있는 전문가 네트워크 서비스(ENS) 전문업체로, 국내 외 클라이언트과 전문가 간의 산업적 소통 서비스를 제공하고 있습니다. 또한, 2022년 한국 최대 규모의 비즈니스 네트워킹 플랫폼인 Remember 의 계열사로 합류해 국내외 기업 클라이언트들의 니즈에 맞는 최상의 맞춤형 솔루션을 제공하고 있습니다. \n* 더 자세한 내용은 이안손앤컴퍼니 홈페이지(https://liahnson.com/)를 확인해주세요!",
+   "min_experience": null,
+   "max_experience": 1,
+   "education_requirement": "bachelor",
+   "recruiting_process": "⏱ 채용 프로세스\n•  서류 전형 ＞ 1차 실무진 면접 ＞ 2차 임원진 면접 ＞ 처우 협의 ＞ 최종 합격",
+   "additional_information": "✨ 복리후생\n• 점심식대 월 20만원 비플제로페이 지원\n• 자율적 업무 환경 및 복장\n• 수평적이고 젊은 기업 문화\n• 명절 백화점 상품권 지급\n• 건강검진 지원\n• 개인 업무 성과에 따른 월별 인센티브\n\n💫지원서류 : 이력서 (필수), 포트폴리오 (필수)\n• 전형별 합격자 한해 다음 전형 일정을 개별 통보합니다.\n• 적합한 지원자 발생 시 조기 마감될 수 있습니다.\n• 합격 여부와 관계 없이 모든 지원자 서류 및 인터뷰 전형 결과에 대한 안내 메일을 드립니다.\n• 전형별 합격자 한해 다음 전형 일정을 개별 통보합니다.\n\n💫기타사항\n• 입사지원서의 내용이 사실과 다를 경우 합격이 취소되거나 전형상의 불이익을 받을 수 있습니다.\n• 전형 진행 과정에서 별도의 교통비/면접비는 지급되지 않습니다.\n• 장애인 및 보훈대상자는 관계 법령에 따라 우대합니다.",
+   "preferred_qualifications": "👍 우대사항\n• ENS (Expert Network Service) 관련 업계 경험\n• 글·이미지 등 다양한 포맷의 콘텐츠를 기획부터 발행까지 직접 맡아본 분\n• GA4, Search Console 등으로 콘텐츠 성과를 분석하고 마케팅 기획에 활용해본 분\n• Figma, Photoshop 등 디자인 툴을 원활하게 활용하실 수 있는 분",
+   "link": "",
+   "starts_at": "2026-10-19T00:00:00.000+09:00",
+   "ends_at": "2026-11-06T23:59:59.000+09:00",
+   "explicit_due": true,
+   "highend": false,
+   "leader_position": false,
+   "company_description": "",
+   "matching_reward": null,
+   "image_url": "https://career-cdn.rememberapp.co.kr/upload/attachments/image/ikoekwvaufrfi9wnba63amwoe49s",
+   "organization": {
+    "id": 13099,
+    "name": "(주)리멤버앤컴퍼니",
+    "company_id": 663802,
+    "account_type": "team",
+    "headhunter": false,
+    "logo": "https://career-cdn.rememberapp.co.kr/upload/attachments/logo/tosn07t9nuodavg4naj3axnr3hiy",
+    "url": "https://corp.remember.co.kr/",
+    "application_response_metrics": {
+     "response_rate": 95,
+     "response_duration_days": 7
+    }
+   },
+   "job_category_ids": [
+    223,
+    225,
+    224,
+    227,
+    226
+   ],
+   "job_categories": [
+    {
+     "id": 223,
+     "level1": "마케팅·광고",
+     "level2": "마케팅 전략·기획"
+    },
+    {
+     "id": 224,
+     "level1": "마케팅·광고",
+     "level2": "브랜드 마케팅"
+    },
+    {
+     "id": 225,
+     "level1": "마케팅·광고",
+     "level2": "퍼포먼스 마케팅"
+    },
+    {
+     "id": 226,
+     "level1": "마케팅·광고",
+     "level2": "CRM 마케팅"
+    },
+    {
+     "id": 227,
+     "level1": "마케팅·광고",
+     "level2": "콘텐츠 마케팅"
+    }
+   ],
+   "industries": [],
+   "addresses": [
+    {
+     "address_level1": "서울특별시",
+     "address_level2": "중구"
+    }
+   ],
+   "application_requirements": {
+    "language": false,
+    "eligibility_for_veterans_compensation": false,
+    "impairment_type": false,
+    "military_service_status": false,
+    "current_salary": true,
+    "certificate": false,
+    "portfolio": false,
+    "birth_year": false,
+    "gender": false
+   },
+   "normalized_address": {
+    "level1": "서울",
+    "level2": "중구"
+   },
+   "job_rank": null,
+   "matching_reward_request": null,
+   "starred_job_posting": null,
+   "application": null,
+   "matching_gift": null,
+   "viewed_at": null,
+   "chips": [
+    {
+     "category": "certification",
+     "value": "벤처 인증"
+    },
+    {
+     "category": "investment",
+     "value": "누적 투자 1,000억↑"
+    }
+   ],
+   "company": {
+    "id": 663802,
+    "investment": {
+     "value": 1992.0,
+     "companies": [
+      "EQT",
+      "아크앤파트너스",
+      "사람인에이치알",
+      "네이버",
+      "라인플러스",
+      "아주아이비투자",
+      "한국투자파트너스",
+      "파트너스인베스트먼트",
+      "대교인베스트먼트",
+      "사이버에이전트벤처즈코리아",
+      "캡스톤파트너스",
+      "정장환",
+      "팁스(TIPS)",
+      "매쉬업벤처스"
+     ]
+    }
+   },
+   "lead_times": [
+    {
+     "id": null,
+     "from": "applied",
+     "to": "resume_accepted",
+     "lead_time_type": "default",
+     "period": null,
+     "ends_at": null
+    }
+   ],
+   "applicant_manager": null,
+   "ad_types": null,
+   "spotlight": false
+  },
+  {
+   "id": 320586,
+   "title": "로우클래식 직영매장 세일즈 직원",
+   "application_type": "apply",
+   "job_posting_type": "general",
+   "status": "published",
+   "job_description": "1. 고객 CS/CX 업무 및 판매 영업\n2. 제품 판매에 따른 판매/보충/관리 \n3. 재고 관리 및 상품 검수\n4. 매장 환경 관리",
+   "job_rank_category": "사원/대리",
+   "job_role": "",
+   "min_salary": 3000,
+   "max_salary": 6000,
+   "total_compensation": null,
+   "qualifications": "1. 5년 이하의 리테일 근무 경험\n2. 원활한 커뮤니케이션과 밝은 서비스 마인드 보유\n3. 브랜드 이해도가 높으신 분",
+   "introduction": "로우클래식은 2009년 서울을 기반으로 설립한 패션 브랜드로, 진취적인 삶을 살아가고자 하는 동시대의 여성을 위한 디자인을 전개합니다. 클래식과 위트가 공존하는 미니멀리즘을 기본으로 하여 여성의 아름다움과 심플함을 표현하고자 하며, 과장된 예술성을 추구하기보다는 현실감각이 있는 디자인을 전개합니다. 또한 지속가능성과 자연스러운 멋을 추구하며, 현재는 서울을 넘어 세계에서 사랑받는 글로벌 패션 하우스로 성장하고 있습니다.",
+   "min_experience": 0,
+   "max_experience": 5,
+   "education_requirement": "none",
+   "recruiting_process": "1. 서류 전형\n2. 실무진 면접\n3. 임원 면접\n4. 최종합격",
+   "additional_information": "",
+   "preferred_qualifications": "1. 의류브랜드 판매 업무 경험자\n2. 외국어 응대가 가능한 분 (영어/일어/중국)\n3. POS / ERP 프로그램 사용 및 배움에 능숙한 분\n4. 성실한 근무 태도와 유동적인 스케줄 근무 가능한 분",
+   "link": "",
+   "starts_at": "2026-06-17T00:00:00.000+09:00",
+   "ends_at": null,
+   "explicit_due": false,
+   "highend": false,
+   "leader_position": false,
+   "company_description": "",
+   "matching_reward": 500000,
+   "image_url": "https://career-cdn.rememberapp.co.kr/upload/attachments/image/0j2u98pi1zn715nj1jd448ehv98e",
+   "organization": {
+    "id": 78230,
+    "name": "(주)로우클래식",
+    "company_id": 2332436,
+    "account_type": "team",
+    "headhunter": false,
+    "logo": "https://career-cdn.rememberapp.co.kr/upload/attachments/logo/s67wk08ztvo2lj6qeg1bd8qeifuz",
+    "url": null,
+    "application_response_metrics": {
+     "response_rate": 72,
+     "response_duration_days": 19
+    }
+   },
+   "job_category_ids": [
+    486,
+    489
+   ],
+   "job_categories": [
+    {
+     "id": 486,
+     "level1": "생활·로컬 서비스직",
+     "level2": "뷰티·패션·미용"
+    },
+    {
+     "id": 489,
+     "level1": "생활·로컬 서비스직",
+     "level2": "기타 서비스직"
+    }
+   ],
+   "industries": [],
+   "addresses": [
+    {
+     "address_level1": "서울특별시",
+     "address_level2": "중구"
+    },
+    {
+     "address_level1": "서울특별시",
+     "address_level2": "성동구"
+    }
+   ],
+   "application_requirements": {
+    "language": false,
+    "eligibility_for_veterans_compensation": false,
+    "impairment_type": false,
+    "military_service_status": false,
+    "current_salary": false,
+    "certificate": false,
+    "portfolio": false,
+    "birth_year": false,
+    "gender": false
+   },
+   "normalized_address": {
+    "level1": "서울",
+    "level2": "중구"
+   },
+   "job_rank": null,
+   "matching_reward_request": null,
+   "starred_job_posting": null,
+   "application": null,
+   "matching_gift": {
+    "type": "cash",
+    "amount": 500000
+   },
+   "viewed_at": null,
+   "chips": [
+    {
+     "category": "certification",
+     "value": "벤처 인증"
+    }
+   ],
+   "company": null,
+   "lead_times": [
+    {
+     "id": 105724,
+     "from": "applied",
+     "to": "resume_accepted",
+     "lead_time_type": "default",
+     "period": null,
+     "ends_at": null
+    }
+   ],
+   "applicant_manager": null,
+   "ad_types": null,
+   "spotlight": true
+  }
+ ],
+ "meta": {
+  "total_count": 5,
+  "total_pages": 1,
+  "per": 30,
+  "page": 1,
+  "total_page": 1,
+  "search": {
+   "companies": []
+  },
+  "seed": 70795851,
+  "job_posting_list_ab_test": "A",
+  "job_seeking_activity_level": null
+ }
+}

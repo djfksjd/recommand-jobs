@@ -1,0 +1,43 @@
+# ── 비밀값: API 키·토큰은 절대 커밋하지 않는다 ──
+.env
+.env.*
+*.env
+*_key
+*_key.txt
+data_go_kr_key*
+*.pem
+*.key
+secrets/
+credentials*
+
+# ── 사용자 개인 자료 (프로필·지원 이력·조사 결과) ──
+recommand-jobs-profile.md
+profile-snapshot.md
+*-applied.tsv
+*.tsv
+채용공고조사_*/
+details/
+review/
+run_manifest.json
+search_plan.json
+추천공고_*.md
+*.jsonl
+01_기준문서/
+02_증빙서류/
+99_백업/
+*개인정보*
+*.pdf
+*.hwp
+*.hwpx
+*.docx
+
+# ── 스킬 평가 산출물 (실사용자 경로·자료가 들어갈 수 있음) ──
+evals/
+*-workspace/
+
+# ── Python / OS ──
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store

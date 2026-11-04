@@ -1,0 +1,1537 @@
+{
+"data": {
+"activities": {
+"totalCount": 1704,
+"nodes": [
+{
+"id": "361659",
+"title": "[제이시스메디칼] 생산본부 생산조립직 채용 (신입/경력 무관)",
+"organizationName": "제이시스메디칼",
+"organizationType": "중견기업",
+"recruitType": "ASAP",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1801493999999,
+"createdAt": 1793676317000,
+"jobTypes": [
+"NEW",
+"EXPERIENCED"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "106001",
+"name": "생산/공정관리",
+"parent": {
+"id": "100006",
+"name": "생산/제조"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "10",
+"name": "금천구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215678",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215679",
+"jobType": "EXPERIENCED",
+"internTypes": []
+}
+]
+},
+{
+"id": "361648",
+"title": "[제이시스메디칼] 제품기획 전략 담당자 채용 (신입/경력 무관)",
+"organizationName": "제이시스메디칼",
+"organizationType": "중견기업",
+"recruitType": "ASAP",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1801493999999,
+"createdAt": 1793674936000,
+"jobTypes": [
+"NEW",
+"EXPERIENCED"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "102000",
+"name": "전체",
+"parent": {
+"id": "100002",
+"name": "마케팅/광고"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "10",
+"name": "금천구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215668",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215669",
+"jobType": "EXPERIENCED",
+"internTypes": []
+}
+]
+},
+{
+"id": "361633",
+"title": "[와디즈] BX팀 콘텐츠 디자이너(인턴)-채용시 마감",
+"organizationName": "와디즈 주식회사",
+"organizationType": "스타트업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1795395659999,
+"createdAt": 1793674011000,
+"jobTypes": [
+"INTERN"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "104002",
+"name": "그래픽/시각디자인",
+"parent": {
+"id": "100004",
+"name": "디자인"
+}
+},
+{
+"id": "104003",
+"name": "영상/모션그래픽",
+"parent": {
+"id": "100004",
+"name": "디자인"
+}
+}
+],
+"regions": [
+{
+"id": "9",
+"name": "경기"
+}
+],
+"regionDistricts": [
+{
+"id": "101",
+"name": "분당구",
+"region": {
+"name": "경기"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215657",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361622",
+"title": "[한국공항] [26년 11월] 제주사업(제동목장·생수공장 외) 안전관리자 신입사원 모집",
+"organizationName": "한국공항",
+"organizationType": "대기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793545200000,
+"recruitCloseAt": 1794193259999,
+"createdAt": 1793672763000,
+"jobTypes": [
+"INTERN"
+],
+"education": "COLLEGE_GRADUATE_4_YEARS",
+"categories": [
+{
+"id": "106003",
+"name": "환경/안전관리",
+"parent": {
+"id": "100006",
+"name": "생산/제조"
+}
+}
+],
+"regions": [
+{
+"id": "27",
+"name": "제주"
+}
+],
+"regionDistricts": [
+{
+"id": "277",
+"name": "제주시",
+"region": {
+"name": "제주"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215642",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361621",
+"title": "[미국인턴/조지아주] 팩트라인터내셔널 애틀랜타법인 - 물류운영 코디네이터 채용 (숙소 제공)",
+"organizationName": "Pacific Global Logistics Inc",
+"organizationType": "기타",
+"recruitType": "ASAP",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1801493999999,
+"createdAt": 1793672712000,
+"jobTypes": [
+"INTERN"
+],
+"education": "COLLEGE_GRADUATE_4_YEARS",
+"categories": [
+{
+"id": "110000",
+"name": "전체",
+"parent": {
+"id": "100010",
+"name": "물류/유통"
+}
+}
+],
+"regions": [
+{
+"id": "29",
+"name": "해외"
+}
+],
+"regionDistricts": [
+{
+"id": "281",
+"name": "해외",
+"region": {
+"name": "해외"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215641",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+},
+{
+"name": "채용연계형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361620",
+"title": "[한국특허정보원] 2026년 한국특허정보원 체험형 청년인턴 채용",
+"organizationName": "한국특허정보원",
+"organizationType": "비영리단체/협회/재단",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1795013999999,
+"createdAt": 1793672674000,
+"jobTypes": [
+"INTERN"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "101000",
+"name": "전체",
+"parent": {
+"id": "100001",
+"name": "기획/경영"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+},
+{
+"id": "7",
+"name": "대전"
+}
+],
+"regionDistricts": [
+{
+"id": "3",
+"name": "강남구",
+"region": {
+"name": "서울"
+}
+},
+{
+"id": "74",
+"name": "서구",
+"region": {
+"name": "대전"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215658",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+}
+]
+},
+{
+"id": "215659",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361618",
+"title": "법무담당자 (인턴)",
+"organizationName": "엔카닷컴",
+"organizationType": "중견기업",
+"recruitType": "ASAP",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1801493999999,
+"createdAt": 1793672575000,
+"jobTypes": [
+"INTERN"
+],
+"education": "COLLEGE_GRADUATE_4_YEARS",
+"categories": [
+{
+"id": "101005",
+"name": "총무/법무/비서",
+"parent": {
+"id": "100001",
+"name": "기획/경영"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "26",
+"name": "중구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215639",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361616",
+"title": "[에프에스티] [펠리클사업부 공정기술팀] 공정개선",
+"organizationName": "에프에스티",
+"organizationType": "중견기업",
+"recruitType": "ASAP",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1801493999999,
+"createdAt": 1793672230000,
+"jobTypes": [
+"NEW",
+"EXPERIENCED"
+],
+"education": "COLLEGE_GRADUATE_4_YEARS",
+"categories": [
+{
+"id": "106001",
+"name": "생산/공정관리",
+"parent": {
+"id": "100006",
+"name": "생산/제조"
+}
+}
+],
+"regions": [
+{
+"id": "9",
+"name": "경기"
+}
+],
+"regionDistricts": [
+{
+"id": "117",
+"name": "오산시",
+"region": {
+"name": "경기"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215634",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215635",
+"jobType": "EXPERIENCED",
+"internTypes": []
+}
+]
+},
+{
+"id": "361613",
+"title": "[LS MnM] 신입사원 수시채용 [설비엔지니어(계기), 구매]",
+"organizationName": "LS MnM",
+"organizationType": "대기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1794754799999,
+"createdAt": 1793671618000,
+"jobTypes": [
+"NEW"
+],
+"education": "COLLEGE_GRADUATE_4_YEARS",
+"categories": [
+{
+"id": "106006",
+"name": "설비/기계유지보수",
+"parent": {
+"id": "100006",
+"name": "생산/제조"
+}
+},
+{
+"id": "110003",
+"name": "구매/자재관리",
+"parent": {
+"id": "100010",
+"name": "물류/유통"
+}
+}
+],
+"regions": [
+{
+"id": "8",
+"name": "울산"
+}
+],
+"regionDistricts": [
+{
+"id": "81",
+"name": "울주군",
+"region": {
+"name": "울산"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215615",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215616",
+"jobType": "NEW",
+"internTypes": []
+}
+]
+},
+{
+"id": "361609",
+"title": "[미국인턴/샌프란시스코] K-BBQ 레스토랑 - 서빙 및 홀서비스 보조 채용",
+"organizationName": "SAN HO WON",
+"organizationType": "기타",
+"recruitType": "ASAP",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1801493999999,
+"createdAt": 1793671222000,
+"jobTypes": [
+"INTERN"
+],
+"education": "COLLEGE_GRADUATE_2_3_YEARS",
+"categories": [
+{
+"id": "105000",
+"name": "전체",
+"parent": {
+"id": "100005",
+"name": "영업/CS"
+}
+},
+{
+"id": "114000",
+"name": "전체",
+"parent": {
+"id": "100014",
+"name": "기타"
+}
+}
+],
+"regions": [
+{
+"id": "29",
+"name": "해외"
+}
+],
+"regionDistricts": [
+{
+"id": "281",
+"name": "해외",
+"region": {
+"name": "해외"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215610",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+},
+{
+"name": "채용연계형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361605",
+"title": "[SNOW] 카메라 콘텐츠 AI 제작/운영 체험형 인턴",
+"organizationName": "SNOW",
+"organizationType": "대기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793545200000,
+"recruitCloseAt": 1794322799999,
+"createdAt": 1793670725000,
+"jobTypes": [
+"INTERN"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "103007",
+"name": "AI/ML엔지니어",
+"parent": {
+"id": "100003",
+"name": "IT/개발"
+}
+}
+],
+"regions": [
+{
+"id": "9",
+"name": "경기"
+}
+],
+"regionDistricts": [
+{
+"id": "101",
+"name": "분당구",
+"region": {
+"name": "경기"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215607",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361603",
+"title": "[라라스윗] 마케팅 인턴 대규모 채용 (채용전환형)",
+"organizationName": "주식회사 라라스윗",
+"organizationType": "중소기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793545200000,
+"recruitCloseAt": 1795359599999,
+"createdAt": 1793670621000,
+"jobTypes": [
+"INTERN"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "102001",
+"name": "마케팅기획/전략",
+"parent": {
+"id": "100002",
+"name": "마케팅/광고"
+}
+},
+{
+"id": "102002",
+"name": "브랜드마케팅",
+"parent": {
+"id": "100002",
+"name": "마케팅/광고"
+}
+},
+{
+"id": "102003",
+"name": "디지털/퍼포먼스마케팅",
+"parent": {
+"id": "100002",
+"name": "마케팅/광고"
+}
+},
+{
+"id": "102004",
+"name": "SNS/콘텐츠마케팅",
+"parent": {
+"id": "100002",
+"name": "마케팅/광고"
+}
+},
+{
+"id": "102005",
+"name": "광고기획/AE",
+"parent": {
+"id": "100002",
+"name": "마케팅/광고"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "3",
+"name": "강남구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215608",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361602",
+"title": "[에프에스티] [펠리클사업부 영업관리팀] 영업관리",
+"organizationName": "에프에스티",
+"organizationType": "중견기업",
+"recruitType": "ASAP",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1801493999999,
+"createdAt": 1793670601000,
+"jobTypes": [
+"NEW",
+"EXPERIENCED"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "105000",
+"name": "전체",
+"parent": {
+"id": "100005",
+"name": "영업/CS"
+}
+}
+],
+"regions": [
+{
+"id": "9",
+"name": "경기"
+}
+],
+"regionDistricts": [
+{
+"id": "117",
+"name": "오산시",
+"region": {
+"name": "경기"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215672",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215673",
+"jobType": "EXPERIENCED",
+"internTypes": []
+}
+]
+},
+{
+"id": "361598",
+"title": "[에프에스티] [펠리클사업부] 테크니션 (Technician)",
+"organizationName": "에프에스티",
+"organizationType": "중견기업",
+"recruitType": "ASAP",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1801493999999,
+"createdAt": 1793669823000,
+"jobTypes": [
+"NEW",
+"EXPERIENCED"
+],
+"education": "HIGH_SCHOOL_GRADUATE",
+"categories": [
+{
+"id": "106001",
+"name": "생산/공정관리",
+"parent": {
+"id": "100006",
+"name": "생산/제조"
+}
+},
+{
+"id": "106002",
+"name": "품질관리(QC/QA)",
+"parent": {
+"id": "100006",
+"name": "생산/제조"
+}
+},
+{
+"id": "106004",
+"name": "생산직/조립/가공",
+"parent": {
+"id": "100006",
+"name": "생산/제조"
+}
+}
+],
+"regions": [
+{
+"id": "9",
+"name": "경기"
+}
+],
+"regionDistricts": [
+{
+"id": "117",
+"name": "오산시",
+"region": {
+"name": "경기"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215674",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215675",
+"jobType": "EXPERIENCED",
+"internTypes": []
+}
+]
+},
+{
+"id": "361594",
+"title": "[엔키에이엑스] 2027 엔키업 채용연계형 인턴십",
+"organizationName": "엔키에이엑스",
+"organizationType": "중소기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1794754799999,
+"createdAt": 1793669308000,
+"jobTypes": [
+"INTERN"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "101000",
+"name": "전체",
+"parent": {
+"id": "100001",
+"name": "기획/경영"
+}
+},
+{
+"id": "102000",
+"name": "전체",
+"parent": {
+"id": "100002",
+"name": "마케팅/광고"
+}
+},
+{
+"id": "103000",
+"name": "전체",
+"parent": {
+"id": "100003",
+"name": "IT/개발"
+}
+},
+{
+"id": "104000",
+"name": "전체",
+"parent": {
+"id": "100004",
+"name": "디자인"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "9",
+"name": "구로구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215592",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+},
+{
+"id": "215593",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+},
+{
+"id": "215594",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+},
+{
+"id": "215595",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+},
+{
+"id": "215596",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+},
+{
+"id": "215597",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+},
+{
+"id": "215598",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+},
+{
+"id": "215599",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+},
+{
+"id": "215600",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+},
+{
+"id": "215601",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "채용연계형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361593",
+"title": "[카디안자산운용] 채권운용본부 인턴 (2027년 상반기)",
+"organizationName": "카디안자산운용",
+"organizationType": "중소기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1794754799999,
+"createdAt": 1793668924000,
+"jobTypes": [
+"INTERN"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "108003",
+"name": "자산운용/펀드",
+"parent": {
+"id": "100008",
+"name": "금융"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "22",
+"name": "영등포구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215589",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361587",
+"title": "[신입환영] 온라인 마케팅 TM 상담직 모집｜성과에 따른 인센티브",
+"organizationName": "주식회사 금새인터랙티브",
+"organizationType": "중소기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1796050799999,
+"createdAt": 1793668023000,
+"jobTypes": [
+"NEW"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "105007",
+"name": "텔레마케팅(TM)",
+"parent": {
+"id": "100005",
+"name": "영업/CS"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "3",
+"name": "강남구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215654",
+"jobType": "NEW",
+"internTypes": []
+}
+]
+},
+{
+"id": "361582",
+"title": "[카디안자산운용] 주식운용본부 인턴 (2027년 상반기)",
+"organizationName": "카디안자산운용",
+"organizationType": "중소기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1794754799999,
+"createdAt": 1793667646000,
+"jobTypes": [
+"INTERN"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "108002",
+"name": "증권/투자/애널리스트",
+"parent": {
+"id": "100008",
+"name": "금융"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "22",
+"name": "영등포구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215579",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361579",
+"title": "조선미녀 글로벌 콘텐츠 마케팅 인턴",
+"organizationName": "주식회사 구다이글로벌",
+"organizationType": "스타트업",
+"recruitType": "ASAP",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1801493999999,
+"createdAt": 1793666818000,
+"jobTypes": [
+"INTERN"
+],
+"education": "COLLEGE_GRADUATE_4_YEARS",
+"categories": [
+{
+"id": "102004",
+"name": "SNS/콘텐츠마케팅",
+"parent": {
+"id": "100002",
+"name": "마케팅/광고"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "3",
+"name": "강남구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215577",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361578",
+"title": "[딜로이트 안진회계법인] 회계감사부문 AIS(계리 전문 조직) 인턴 채용",
+"organizationName": "Deloitte 안진회계법인",
+"organizationType": "외국계기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1795762859999,
+"createdAt": 1793666442000,
+"jobTypes": [
+"INTERN"
+],
+"education": "COLLEGE_GRADUATE_4_YEARS",
+"categories": [
+{
+"id": "101000",
+"name": "전체",
+"parent": {
+"id": "100001",
+"name": "기획/경영"
+}
+},
+{
+"id": "108000",
+"name": "전체",
+"parent": {
+"id": "100008",
+"name": "금융"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "22",
+"name": "영등포구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215575",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361577",
+"title": "[딜로이트 안진회계법인] 회계감사부문 AIS(계리 전문 조직) 신입 채용",
+"organizationName": "Deloitte 안진회계법인",
+"organizationType": "외국계기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1795762859999,
+"createdAt": 1793666272000,
+"jobTypes": [
+"NEW"
+],
+"education": "COLLEGE_GRADUATE_4_YEARS",
+"categories": [
+{
+"id": "101000",
+"name": "전체",
+"parent": {
+"id": "100001",
+"name": "기획/경영"
+}
+},
+{
+"id": "108000",
+"name": "전체",
+"parent": {
+"id": "100008",
+"name": "금융"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "22",
+"name": "영등포구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215574",
+"jobType": "NEW",
+"internTypes": []
+}
+]
+},
+{
+"id": "361569",
+"title": "올림픽기념국민생활관 수영 주중 저녁 강습 정액제 위탁강사 모집 공고",
+"organizationName": "서울특별시종로구시설관리공단",
+"organizationType": "공공기관/공기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793631600000,
+"recruitCloseAt": 1793862059999,
+"createdAt": 1793665211000,
+"jobTypes": [
+"NEW"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "114000",
+"name": "전체",
+"parent": {
+"id": "100014",
+"name": "기타"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "25",
+"name": "종로구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215556",
+"jobType": "NEW",
+"internTypes": []
+}
+]
+},
+{
+"id": "361568",
+"title": "[한국청소년상담복지개발원] 제2026-1호 국립청소년인터넷드림마을 청년인턴(체험형) 모집",
+"organizationName": "한국청소년상담복지개발원",
+"organizationType": "기타",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793545200000,
+"recruitCloseAt": 1794895259999,
+"createdAt": 1793665068000,
+"jobTypes": [
+"INTERN"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "101008",
+"name": "사무/문서관리",
+"parent": {
+"id": "100001",
+"name": "기획/경영"
+}
+}
+],
+"regions": [
+{
+"id": "25",
+"name": "전라"
+}
+],
+"regionDistricts": [
+{
+"id": "202",
+"name": "무주군",
+"region": {
+"name": "전라"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215557",
+"jobType": "INTERN",
+"internTypes": [
+{
+"name": "체험형 인턴"
+}
+]
+}
+]
+},
+{
+"id": "361565",
+"title": "[토스] 토스 보안 전직군 대규모 채용",
+"organizationName": "토스",
+"organizationType": "대기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793458800000,
+"recruitCloseAt": 1794754799999,
+"createdAt": 1793663698000,
+"jobTypes": [
+"EXPERIENCED",
+"NEW"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "103000",
+"name": "전체",
+"parent": {
+"id": "100003",
+"name": "IT/개발"
+}
+}
+],
+"regions": [
+{
+"id": "2",
+"name": "서울"
+}
+],
+"regionDistricts": [
+{
+"id": "3",
+"name": "강남구",
+"region": {
+"name": "서울"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215538",
+"jobType": "EXPERIENCED",
+"internTypes": []
+},
+{
+"id": "215539",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215540",
+"jobType": "EXPERIENCED",
+"internTypes": []
+},
+{
+"id": "215541",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215542",
+"jobType": "EXPERIENCED",
+"internTypes": []
+},
+{
+"id": "215543",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215544",
+"jobType": "EXPERIENCED",
+"internTypes": []
+},
+{
+"id": "215545",
+"jobType": "EXPERIENCED",
+"internTypes": []
+},
+{
+"id": "215546",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215547",
+"jobType": "EXPERIENCED",
+"internTypes": []
+}
+]
+},
+{
+"id": "361564",
+"title": "[네이버랩스] Robotics ML Research Engineer",
+"organizationName": "네이버랩스",
+"organizationType": "대기업",
+"recruitType": "NORMAL",
+"recruitStartAt": 1793286000000,
+"recruitCloseAt": 1794149999999,
+"createdAt": 1793663541000,
+"jobTypes": [
+"NEW",
+"EXPERIENCED"
+],
+"education": "NO_LIMIT",
+"categories": [
+{
+"id": "103004",
+"name": "시스템/ERP개발",
+"parent": {
+"id": "100003",
+"name": "IT/개발"
+}
+},
+{
+"id": "103005",
+"name": "DevOps/클라우드/보안",
+"parent": {
+"id": "100003",
+"name": "IT/개발"
+}
+},
+{
+"id": "103006",
+"name": "데이터분석",
+"parent": {
+"id": "100003",
+"name": "IT/개발"
+}
+}
+],
+"regions": [
+{
+"id": "9",
+"name": "경기"
+}
+],
+"regionDistricts": [
+{
+"id": "101",
+"name": "분당구",
+"region": {
+"name": "경기"
+}
+}
+],
+"recruitInformations": [
+{
+"id": "215536",
+"jobType": "NEW",
+"internTypes": []
+},
+{
+"id": "215537",
+"jobType": "EXPERIENCED",
+"internTypes": []
+}
+]
+}
+]
+}
+}
+}
