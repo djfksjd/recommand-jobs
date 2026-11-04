@@ -3,7 +3,7 @@
 > 한국 채용공고를 **규칙 기반 크롤러**로 모으고, 내 프로필에 맞는 공고를 **원문 인용과 함께** 골라 주는 Claude Code 스킬
 
 ![python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)
-![tests](https://img.shields.io/badge/tests-152%20passed-2ea44f)
+![tests](https://img.shields.io/badge/tests-157%20passed-2ea44f)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 ![robots](https://img.shields.io/badge/robots.txt-준수-555)
 
@@ -148,11 +148,12 @@ python3 $S/diff_surveys.py $OLD $DIR                                   # 재조�
 
 ```bash
 python3 -m pip install -r requirements-dev.txt
-python3 -m pytest -q          # 152 passed
+python3 -m pytest -q          # 157 passed
 ```
 
 - `tests/fixtures/`의 HTML·JSON은 파서 회귀 테스트용으로 줄여 둔 공개 공고 페이지입니다. 연락처는 가렸습니다.
 - 새 소스 어댑터 규격은 [`references/adapter_contract.md`](references/adapter_contract.md)를 따릅니다.
+- 첨부 공고문은 30MB, HWPX 압축 해제는 50MB까지만 받습니다. 공고 ID의 경로 문자는 저장 전에 지웁니다.
 - 사이트 구조가 바뀌어 어댑터가 0건이나 `partial`을 내면, robots.txt를 다시 확인한 다음 `sources.md`를 갱신합니다.
 
 ```text
