@@ -23,7 +23,7 @@ import subprocess
 import zipfile
 from urllib.parse import urlsplit
 
-from jobs_common import Blocked, Fetcher, RobotsDisallowed, atomic_write, log, now_kst
+from jobs_common import Blocked, Fetcher, RobotsDisallowed, TooLarge, atomic_write, log, now_kst
 
 MIN_TEXT = 300  # 이보다 짧으면 'thin' — 공고 본문을 못 읽은 것으로 본다
 ATTACH_HINT = re.compile(r"공고|모집|채용|요강|안내", re.I)
@@ -32,7 +32,13 @@ SKIP_EXT = re.compile(r"\.(zip|rar|7z|xlsx?|docx?|pptx?|jpe?g|png)(\?|$)", re.I)
 
 
 def base_name(spec: str) -> str:
-    return spec.replace(":", "_", 1)
+    """source:id → 파일 이름. 경로 문자(/ \\ ..)와 제어문자를 지워 details 밖에 쓰지 못하게 한다."""
+    s = spec.replace(":", "_", 1)
+    s = re.sub(r"[^0-9A-Za-z가-힣._-]", "_", s).lstrip(".")
+    s = re.sub(r"\.{2,}", "_", s)
+    if not s or len(s) > 120:
+        raise SystemExit(f"잘못된 공고 지정: {spec[:60]!r} — source:id 형식")
+    return s
 
 
 def _html_text(html: str) -> str:
@@ -54,13 +60,26 @@ def _run(cmd, timeout=60) -> str:
     return r.stdout.decode("utf-8", "replace") if r.returncode == 0 else ""
 
 
+HWPX_MAX_UNCOMPRESSED = 50 * 1024 * 1024  # 압축 해제 합계 상한(압축 폭탄 방지)
+
+
 def _hwpx_text(data: bytes) -> str:
     out = []
     with zipfile.ZipFile(io.BytesIO(data)) as z:
-        for n in sorted(z.namelist()):
-            if re.match(r"Contents/section\d+\.xml$", n):
-                xml = z.read(n).decode("utf-8", "replace")
-                out.append(re.sub(r"<[^>]+>", " ", re.sub(r"</hp:p>", "\n", xml)))
+        sections = [i for i in z.infolist() if re.match(r"Contents/section\d+\.xml$", i.filename)]
+        if sum(i.file_size for i in sections) > HWPX_MAX_UNCOMPRESSED:
+            log("[official] HWPX 압축 해제 크기가 상한을 넘어 읽지 않음")
+            return ""
+        left = HWPX_MAX_UNCOMPRESSED
+        for info in sorted(sections, key=lambda i: i.filename):
+            with z.open(info) as fh:  # 헤더의 크기를 믿지 않고 실제로 읽는 양도 제한한다
+                raw = fh.read(left + 1)
+            left -= len(raw)
+            if left < 0:
+                log("[official] HWPX 압축 해제 크기가 상한을 넘어 읽지 않음")
+                return ""
+            xml = raw.decode("utf-8", "replace")
+            out.append(re.sub(r"<[^>]+>", " ", re.sub(r"</hp:p>", "\n", xml)))
     return re.sub(r"[ \t]+", " ", "\n".join(out))
 
 
@@ -136,6 +155,8 @@ def fetch_official(details_dir: str, spec: str, extra_urls: list[str]) -> dict:
                 texts.append(f"[공식 원문 {i}: {why} — {u}]\n{text.strip()}")
         except (Blocked, RobotsDisallowed) as e:
             part.update(status="manual", error=str(e)[:120])
+        except TooLarge as e:
+            part.update(status="too_large", error=str(e)[:120])
         except Exception as e:  # noqa: BLE001
             part.update(status="error", error=f"{type(e).__name__}: {str(e)[:100]}")
         parts.append(part)

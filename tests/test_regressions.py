@@ -453,3 +453,65 @@ def test_site_original_confirmation_counts_as_official(tmp_path):
     confirm_site_original(str(root / "details"), "saramin:1", "회사 홈페이지에 채용 메뉴 없음, 사람인 공고가 원본")
     r = _run_official_req(root, PROF_1104)
     assert r["official_status"] == "fetched" and r["eligibility"] == "eligible_by_text"
+
+
+# --- 2026-11-04: 공식 공고문 받기 보안 보강 (크기 상한·압축 폭탄·경로 문자) ---
+class _StreamResp:
+    def __init__(self, chunks, headers=None):
+        self.status_code, self.headers, self._chunks, self.closed = 200, headers or {}, chunks, False
+
+    def iter_content(self):
+        yield from self._chunks
+
+    def close(self):
+        self.closed = True
+
+
+def test_raw_download_rejects_declared_oversize():
+    import pytest
+    big = _StreamResp([b"x"], {"content-type": "application/pdf",
+                               "content-length": str(j.MAX_RAW_BYTES + 1)})
+    f = _fetcher([_Resp(200, "User-agent: *\nDisallow:\n"), big])
+    with pytest.raises(j.TooLarge):
+        f.get_bytes("https://example.com/a.pdf")
+    assert big.closed
+
+
+def test_raw_download_stops_when_stream_exceeds_cap(monkeypatch):
+    import pytest
+    monkeypatch.setattr(j, "MAX_RAW_BYTES", 10)
+    f = _fetcher([_Resp(200, "User-agent: *\nDisallow:\n"),
+                  _StreamResp([b"%PDF-", b"123456789"], {"content-type": "application/pdf"})])
+    with pytest.raises(j.TooLarge):
+        f.get_bytes("https://example.com/a.pdf")
+
+
+def test_raw_download_small_file_ok():
+    f = _fetcher([_Resp(200, "User-agent: *\nDisallow:\n"),
+                  _StreamResp([b"%PDF-", b"1.7"], {"content-type": "application/pdf"})])
+    body, ctype, _ = f.get_bytes("https://example.com/a.pdf")
+    assert body == b"%PDF-1.7" and "pdf" in ctype
+
+
+def test_hwpx_zip_bomb_is_not_expanded(monkeypatch):
+    import io
+    import zipfile
+    import official
+    buf = io.BytesIO()
+    with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
+        z.writestr("Contents/section0.xml", "<hp:p>가</hp:p>" * 2000)
+    monkeypatch.setattr(official, "HWPX_MAX_UNCOMPRESSED", 1000)
+    assert official._hwpx_text(buf.getvalue()) == ""
+    monkeypatch.setattr(official, "HWPX_MAX_UNCOMPRESSED", 10 ** 7)
+    assert "가" in official._hwpx_text(buf.getvalue())
+
+
+def test_base_name_blocks_path_traversal():
+    import pytest
+    import official
+    assert official.base_name("saramin:12345678") == "saramin_12345678"
+    for bad in ["saramin:../../etc/x", "a:/abs/path", "x:..\\..\\y"]:
+        b = official.base_name(bad)
+        assert "/" not in b and "\\" not in b and ".." not in b and not b.startswith(".")
+    with pytest.raises(SystemExit):
+        official.base_name("...")

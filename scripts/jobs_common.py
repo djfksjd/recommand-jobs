@@ -39,6 +39,7 @@ MANIFEST_SCHEMA_VERSION = 1
 MANIFEST_NAME = "run_manifest.json"
 EXIT_OK, EXIT_PARTIAL, EXIT_MANUAL = 0, 2, 3
 DEFAULT_DELAY = 0.6  # 같은 호스트 연속 요청 사이 최소 간격(초)
+MAX_RAW_BYTES = 30 * 1024 * 1024  # 첨부 공고문 다운로드 상한. 공고문은 보통 수 MB이고, 넘으면 받지 않는다
 ROBOTS_AGENT_TOKENS = ("*", "claude-user")  # 존재하는 그룹 모두에서 허용돼야 한다
 
 
@@ -152,6 +153,10 @@ class RateLimited(Blocked):
     """429 — Retry-After를 한 번 기다려도 계속되면 올린다. 어댑터는 모은 것까지 partial로 남긴다."""
 
 
+class TooLarge(Exception):
+    """응답이 MAX_RAW_BYTES를 넘는다 — 끝까지 받지 않고 끊는다."""
+
+
 class RobotsDisallowed(Exception):
     pass
 
@@ -173,6 +178,34 @@ def scrub(msg) -> str:
 def looks_blocked(text: str) -> bool:
     head = (text or "")[:6000].lower()
     return any(m in head for m in BLOCK_MARKERS)
+
+
+def read_capped(r, limit: int) -> bytes:
+    """응답 본문을 limit 바이트까지만 읽는다. Content-Length가 넘거나 실제로 넘으면 TooLarge."""
+    cl = str((r.headers or {}).get("content-length") or "")
+    if cl.isdigit() and int(cl) > limit:
+        _close(r)
+        raise TooLarge(f"응답 {int(cl) // 1048576}MB > 상한 {limit // 1048576}MB")
+    if not hasattr(r, "iter_content"):
+        body = r.content
+    else:
+        buf = bytearray()
+        for chunk in r.iter_content():
+            buf += chunk
+            if len(buf) > limit:
+                _close(r)
+                raise TooLarge(f"응답이 상한 {limit // 1048576}MB를 넘음")
+        body = bytes(buf)
+    if len(body) > limit:
+        raise TooLarge(f"응답이 상한 {limit // 1048576}MB를 넘음")
+    return body
+
+
+def _close(r):
+    try:
+        r.close()
+    except Exception:  # noqa: BLE001
+        pass
 
 
 class Fetcher:
@@ -284,8 +317,10 @@ class Fetcher:
         for attempt in range(retries + 1):
             self._sleep(host)
             try:
+                extra = {"stream": True} if raw else {}  # 첨부는 스트리밍으로 받아 크기 상한을 건다
                 r = self.session.request(method, url, params=params, json=json_body, data=data,
-                                         headers=headers, timeout=self.timeout, allow_redirects=False)
+                                         headers=headers, timeout=self.timeout, allow_redirects=False,
+                                         **extra)
                 self.requests_made += 1
             except Exception as e:
                 err = scrub(f"{type(e).__name__}: {e}")
@@ -321,10 +356,13 @@ class Fetcher:
             if r.status_code >= 400:
                 raise RuntimeError(f"HTTP {r.status_code}")
             ctype = (r.headers.get("content-type") or "").lower()
+            if raw:  # 첨부 공고문(PDF·HWP) — (바이트, content-type, 최종 URL)
+                body = read_capped(r, MAX_RAW_BYTES)
+                if "html" in ctype and looks_blocked(body.decode("utf-8", "replace")):
+                    raise Blocked("200 응답이지만 차단/CAPTCHA 페이지")
+                return body, ctype, url
             if "html" in ctype and looks_blocked(r.text):
                 raise Blocked("200 응답이지만 차단/CAPTCHA 페이지")
-            if raw:  # 첨부 공고문(PDF·HWP) — (바이트, content-type, 최종 URL)
-                return r.content, ctype, url
             if expect_json:
                 try:
                     return r.json()
